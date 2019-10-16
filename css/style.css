@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5; }
+
+@keyframes moveInLeft {
+  0% {
+    /*hide*/
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    /*go extra 10px to the right*/
+    transform: translateX(1rem); }
+  100% {
+    /*display*/
+    opacity: 1;
+    /*stop at the same position*/
+    transform: translateX(0); } }
+
+/*define animation using keyframe */

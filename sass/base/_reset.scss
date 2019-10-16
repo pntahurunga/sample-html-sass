@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: $default-font-size;
+    line-height: $default-line-height;
+}
